@@ -2,6 +2,9 @@
 
 A curated list of awesome Objective-C frameworks, libraries and software.
 
+* [weisso5/OjbcExamples](https://github.com/weisso5/OjbcExamples) - Various Objc Examples that I found useful.
+* [redtail83/HelloOjbCCmd](https://github.com/redtail83/HelloOjbCCmd) - Objective-CでHello Worldするコマンドラインプロジェクト。
+* [chunkyguy/OjbCComponentSystem](https://github.com/chunkyguy/OjbCComponentSystem) - Component System Prototype using Objective-C Message Forwarding.
 * [AFNetworking/AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful iOS and OS X networking framework
 * [rs/SDWebImage](https://github.com/rs/SDWebImage) - Asynchronous image downloader with cache support as a UIImageView category
 * [BradLarson/GPUImage](https://github.com/BradLarson/GPUImage) - An open source iOS framework for GPU-based image and video processing
@@ -444,7 +447,6 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [cocos2d/CocosBuilder](https://github.com/cocos2d/CocosBuilder) - CocosBuilder, the visual editor for cocos2d
 * [callumboddy/CBZSplashView](https://github.com/callumboddy/CBZSplashView) - Twitter style Splash Screen View. Grows to reveal the Initial view behind
 * [SamRothCA/Today-Scripts](https://github.com/SamRothCA/Today-Scripts) - A widget for running scripts in the Today View in OS X Yosemite's Notification Center
-* [SamRothCA/Today-Scripts](https://github.com/SamRothCA/Today-Scripts) - A widget for running scripts in the Today View in OS X Yosemite's Notification Center
 * [mobfarm/FastPdfKit](https://github.com/mobfarm/FastPdfKit) - A Static Library to be embedded on iOS applications to display pdf documents derived from Fast PDF
 * [mindbrix/UIImage-PDF](https://github.com/mindbrix/UIImage-PDF) - Simple UIImage PDF renderer category for iOS scalable assets
 * [michalkonturek/GraphKit](https://github.com/michalkonturek/GraphKit) - A lightweight library of animated graphs for iOS.
@@ -678,7 +680,6 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [bryceredd/RFQuiltLayout](https://github.com/bryceredd/RFQuiltLayout) - A UICollectionViewLayout subclass to put items in a quilting pattern
 * [wordpress-mobile/WordPress-iOS](https://github.com/wordpress-mobile/WordPress-iOS) - WordPress for iOS - Official repository
 * [inspace-io/INSPullToRefresh](https://github.com/inspace-io/INSPullToRefresh) - A simple to use very generic pull-to-refresh and infinite scrolling functionalities as a UIScrollView category.
-* [bestwnh/IGLDropDownMenu](https://github.com/bestwnh/IGLDropDownMenu) - An iOS drop down menu with pretty animation and easy to customize.
 * [bestwnh/IGLDropDownMenu](https://github.com/bestwnh/IGLDropDownMenu) - An iOS drop down menu with pretty animation and easy to customize.
 * [Vinodh-G/ParallaxTableViewHeader](https://github.com/Vinodh-G/ParallaxTableViewHeader) - Parallax scrolling effect on UITableView header view when a tableView is scrolled
 * [Akkyie/AKPickerView](https://github.com/Akkyie/AKPickerView) - A simple yet customizable horizontal picker view.
