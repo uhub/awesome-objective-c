@@ -3,6 +3,7 @@
 A curated list of awesome Objective-C frameworks, libraries and software.
 
 * [BoltsFramework/Bolts-ObjC](https://github.com/BoltsFramework/Bolts-ObjC) - Bolts is a collection of low-level libraries designed to make developing mobile apps easier.
+* [Dr-Charts](https://github.com/Zomato/DR-charts) - Dr-Charts is a highly customisable, easy to use and interactive chart / graph framework in Objective-C.
 * [cocos2d/cocos2d-objc](https://github.com/cocos2d/cocos2d-objc) - Cocos2d for iOS and OS X, built using Objective-C
 * [pkyeck/socket.IO-objc](https://github.com/pkyeck/socket.IO-objc) - socket.io v0.7.2 — 0.9.x for iOS and OS X
 * [puls/objc-TimesSquare](https://github.com/puls/objc-TimesSquare) - TimesSquare is an Objective-C calendar view for your apps.
