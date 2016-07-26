@@ -1222,7 +1222,6 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [yageek/lambert-objc](https://github.com/yageek/lambert-objc) - CLLocation category to use lambert coordinates
 * [yageek/GnuPlotObjc](https://github.com/yageek/GnuPlotObjc) - Wrapper to Gnuplot in ObjC
 * [wooga/WGConnectability](https://github.com/wooga/WGConnectability) - Simple library for sending tcp pings in objC
-* [wezm/objc-cairo](https://github.com/wezm/objc-cairo) - Objective-C bindings for Cairo
 * [waka/objc-Async](https://github.com/waka/objc-Async) - Deferred(Promise/A) implementation and handling HTTP request easily using Deferred
 * [twilio/video-quickstart-objc](https://github.com/twilio/video-quickstart-objc) - Twilio Video (Conversations) Quickstart for iOS with Objective-C
 * [tarnfeld/twtmore-api-objc](https://github.com/tarnfeld/twtmore-api-objc) - Twtmore API for iPhone/Mac in Objective-C
