@@ -946,7 +946,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [jverdi/JVFloatLabeledTextField](https://github.com/jverdi/JVFloatLabeledTextField) - UITextField subclass with floating labels - inspired by Matt D. Smith's design: http://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction?list=users
 * [MacDownApp/macdown](https://github.com/MacDownApp/macdown) - Open source Markdown editor for macOS.
 * [schneiderandre/popping](https://github.com/schneiderandre/popping) - A collection of animation examples for iOS apps.
-* [KrauseFx/TSMessages](https://github.com/KrauseFx/TSMessages) - 💌 Easy to use and customizable messages/notifications for iOS à la Tweetbot
+* [donileo/RMessage](https://github.com/donileo/RMessage) - A crisp in-app notification/message banner built in ObjC (replacement for TSMessages)
 * [Draveness/Analyze](https://github.com/Draveness/Analyze) - 深入解析 iOS 开源项目
 * [julienXX/terminal-notifier](https://github.com/julienXX/terminal-notifier) - Send User Notifications on Mac OS X 10.8 from the command-line.
 * [tombenner/nui](https://github.com/tombenner/nui) - Style iOS apps with a stylesheet, similar to CSS
