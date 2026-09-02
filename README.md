@@ -5,62 +5,36 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * Learning and Reference
 	* [Tutorials and Books](#tutorials-and-books)
 	* [Examples and Exercises](#examples-and-exercises)
-	* [Awesome Lists and Collections](#awesome-lists-and-collections)
 * Language and Tooling
 	* [Compilers and Interpreters](#compilers-and-interpreters)
-	* [Build Systems](#build-systems)
-	* [Linters and Formatters](#linters-and-formatters)
 	* [Debugging and Profiling](#debugging-and-profiling)
 	* [Editor and IDE Support](#editor-and-ide-support)
-	* [Version Control](#version-control)
 * Web
-	* [Web Frameworks](#web-frameworks)
 	* [HTTP and Networking Clients](#http-and-networking-clients)
-	* [Web Servers and Proxies](#web-servers-and-proxies)
 * Data and Storage
 	* [Databases](#databases)
 	* [Database Clients and ORMs](#database-clients-and-orms)
 	* [Serialization and Formats](#serialization-and-formats)
 	* [Caching and Queues](#caching-and-queues)
-	* [Search and Indexing](#search-and-indexing)
-* Machine Learning and AI
-	* [Machine Learning Frameworks](#machine-learning-frameworks)
-	* [Computer Vision](#computer-vision)
-	* [Natural Language Processing](#natural-language-processing)
-	* [Data Science and Analytics](#data-science-and-analytics)
 * Networking and Distributed
 	* [Networking](#networking)
-	* [RPC and Messaging](#rpc-and-messaging)
-	* [Cloud and Infrastructure](#cloud-and-infrastructure)
-	* [Monitoring and Observability](#monitoring-and-observability)
 * User Interface
-	* [GUI Toolkits](#gui-toolkits)
 	* [Mobile](#mobile)
 	* [Applications and End User Tools](#applications-and-end-user-tools)
 * Graphics and Media
-	* [Graphics and Rendering](#graphics-and-rendering)
 	* [Game Development](#game-development)
 	* [Audio](#audio)
 	* [Image and Video](#image-and-video)
 * Security
 	* [Cryptography](#cryptography)
 	* [Security Tools](#security-tools)
-	* [Authentication and Authorization](#authentication-and-authorization)
 	* [Reverse Engineering](#reverse-engineering)
-* Concurrency and Performance
-	* [Concurrency and Parallelism](#concurrency-and-parallelism)
 * Testing and Quality
 	* [Testing](#testing)
 * Utilities
 	* [Command Line Tools](#command-line-tools)
-	* [Logging and Configuration](#logging-and-configuration)
 	* [Text Processing](#text-processing)
-	* [Files and Operating System](#files-and-operating-system)
-	* [Date and Time](#date-and-time)
-	* [Automation and Scripting](#automation-and-scripting)
 	* [General Purpose Libraries](#general-purpose-libraries)
-* Science and Math
-	* [Mathematics](#mathematics)
 * [Other](#other)
 
 ## Learning and Reference
@@ -75,7 +49,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [erica/iOS-6-Cookbook](https://github.com/erica/iOS-6-Cookbook) - iOS 6 update
 * [erica/iOS-6-Advanced-Cookbook](https://github.com/erica/iOS-6-Advanced-Cookbook) - Recipes for working with the advanced features of iOS 6
 * [huang303513/SourceCodeResearchAndExploration](https://github.com/huang303513/SourceCodeResearchAndExploration) - SDWebImage、AFNetworking、WebViewJavascriptCore、YYModel源码解析
-* [CoderLNHui/iOS-Framework](https://github.com/CoderLNHui/iOS-Framework) - System file classification
+* [CoderLNHui/iOS-Framework](https://github.com/CoderLNHui/iOS-Framework) - UIKit、Foundation 框架文件归整分析，跟迭式积累，欢迎阅读！
 
 ### Examples and Exercises
 
@@ -143,11 +117,6 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [subjc/SubjectiveCUnreadMenu](https://github.com/subjc/SubjectiveCUnreadMenu) - A rebuilding of Unread's pull-for-menu interaction.
 * [kenshin03/RouletteWheelCollectionViewDemo](https://github.com/kenshin03/RouletteWheelCollectionViewDemo) - Demo of a custom UICollectionViewFlowLayout subclass implementation of a roulette wheel of cards, in the style of the Yahoo TimeTraveler app.
 
-### Awesome Lists and Collections
-
-* [joy0304/Joy-Collection](https://github.com/joy0304/Joy-Collection) - 移动开发专题合辑
-* [riusksk/SecConArchive](https://github.com/riusksk/SecConArchive) - Security Conference Archive
-
 ## Language and Tooling
 
 ### Compilers and Interpreters
@@ -162,15 +131,6 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [beelsebob/CoreParse](https://github.com/beelsebob/CoreParse) - A shift/reduce parsing framework for Mac OS X and iOS
 * [eerolanguage/eero](https://github.com/eerolanguage/eero) - Eero was a fully binary- and header-compatible dialect of Objective-C, implemented with a modified version of the Apple-sponsored LLVM/clang open-source compiler. It featured a streamlined syntax, Python-like indentation, and other features that improve readability and code safety. It was inspired by languages such as Smalltalk, Python, and Ruby.
 * [letqingbin/DynamicOC](https://github.com/letqingbin/DynamicOC) - A hotfix library based on flex/yacc. You can call any Objective-C class and method using DynamicOC.
-
-### Build Systems
-
-* [puls/objc-codegenutils](https://github.com/puls/objc-codegenutils) - Three small tools to help you meet Xcode halfway.
-
-### Linters and Formatters
-
-* [square/spacecommander](https://github.com/square/spacecommander) - Commit fully-formatted Objective-C as a team without even trying.
-* [mattstevens/objc-diff](https://github.com/mattstevens/objc-diff) - An Objective-C API diff report generator
 
 ### Debugging and Profiling
 
@@ -209,15 +169,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [dhcdht/DXXcodeConsoleUnicodePlugin](https://github.com/dhcdht/DXXcodeConsoleUnicodePlugin) - 转换Xcode控制台中一些不可阅读的字符，比如 \u22AD 这种
 * [music4kid/EasyCode-Xcode](https://github.com/music4kid/EasyCode-Xcode) - "legal" Xcode Plugin for inserting code in super duper fast lazy way.
 
-### Version Control
-
-* [libgit2/objective-git](https://github.com/libgit2/objective-git) - Objective-C bindings to libgit2
-
 ## Web
-
-### Web Frameworks
-
-* [thecatalinstan/Criollo](https://github.com/thecatalinstan/Criollo) - A powerful Cocoa web framework and HTTP server for macOS, iOS and tvOS.
 
 ### HTTP and Networking Clients
 
@@ -242,13 +194,6 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [douban/douban-objc-client](https://github.com/douban/douban-objc-client) - Objective-C client library for Douban APIs (OAuth 2.0)
 * [soffes/cheddarkit](https://github.com/soffes/cheddarkit) - Objective-C framework that powers Cheddar for iOS and Cheddar for Mac *(archived)*
 * [Pocket/Pocket-ObjC-SDK](https://github.com/Pocket/Pocket-ObjC-SDK) - Headless iOS/Mac SDK for saving stuff to Pocket. *(archived)*
-
-### Web Servers and Proxies
-
-* [robbiehanson/CocoaHTTPServer](https://github.com/robbiehanson/CocoaHTTPServer) - A small, lightweight, embeddable HTTP server for Mac OS X or iOS applications
-* [stevestreza/Barista](https://github.com/stevestreza/Barista) - A modular, embeddable web server for Objective-C.
-* [robin/cocoa-web-resource](https://github.com/robin/cocoa-web-resource) - [Deprecated] A file transfer solution for iPhone and iPod Touch. Support uploading, download and delete files via browser.
-* [floatinghotpot/cordova-httpd](https://github.com/floatinghotpot/cordova-httpd) - Embed tiny web server into Cordova with a plugin
 
 ## Data and Storage
 
@@ -312,34 +257,6 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [rabbitmq/rabbitmq-objc-client](https://github.com/rabbitmq/rabbitmq-objc-client) - RabbitMQ client for Objective-C and Swift *(archived)*
 * [ShelinShelin/OffLineCache](https://github.com/ShelinShelin/OffLineCache) - About Offline caching ideas and The use of AFN
 
-### Search and Indexing
-
-* [thetron/StringScore](https://github.com/thetron/StringScore) - StringScore is an Objective-C library which provides super fast fuzzy string matching/scoring. Based on the JavaScript library of the same name.
-* [peakji/PJTernarySearchTree](https://github.com/peakji/PJTernarySearchTree) - Objective-C implementation of Ternary Search Tree for Mac OS X and iOS. Best for text autocompletion. Store any objects, auto pruning, serializing, unicode support. *(archived)*
-
-## Machine Learning and AI
-
-### Machine Learning Frameworks
-
-* [jiaxiaogang/HE](https://github.com/jiaxiaogang/HE) - 和（he for objective-c） —— “信息熵减机系统”
-
-### Computer Vision
-
-* [card-io/card.io-iOS-SDK](https://github.com/card-io/card.io-iOS-SDK) - card.io provides fast, easy credit card scanning in mobile apps *(archived)*
-* [card-io/card.io-iOS-source](https://github.com/card-io/card.io-iOS-source) - The open-source code for the card.io-iOS-SDK: provides fast, easy credit card scanning in mobile apps *(archived)*
-* [scott0123/Tesseract-macOS](https://github.com/scott0123/Tesseract-macOS) - Objective C wrapper for the open source OCR Engine Tesseract (macOS)
-* [pablosproject/iPhone-OCR-Tesseract-and-OpenCV](https://github.com/pablosproject/iPhone-OCR-Tesseract-and-OpenCV) - Simple academic project made using OpenCV and Tesseract. The aim of these project is to read flyers of job offer and extract the text.
-
-### Natural Language Processing
-
-* [alan-ai/alan-sdk-ios](https://github.com/alan-ai/alan-sdk-ios) - The Self-Coding System for Your App — Alan AI SDK for iOS
-* [dialogflow/dialogflow-apple-client](https://github.com/dialogflow/dialogflow-apple-client) - iOS SDK for Dialogflow *(archived)*
-
-### Data Science and Analytics
-
-* [core-plot/core-plot](https://github.com/core-plot/core-plot) - Core Plot source code and example applications
-* [mixpanel/mixpanel-iphone](https://github.com/mixpanel/mixpanel-iphone) - Official iOS (Objective-C) Tracking Library for Mixpanel Analytics
-
 ## Networking and Distributed
 
 ### Networking
@@ -349,6 +266,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [robbiehanson/XMPPFramework](https://github.com/robbiehanson/XMPPFramework) - An XMPP Framework in Objective-C for Mac and iOS
 * [twitter-archive/CocoaSPDY](https://github.com/twitter-archive/CocoaSPDY) - SPDY for iOS and OS X *(archived)*
 * [MailCore/MailCore](https://github.com/MailCore/MailCore) - MailCore 1.0 is a Mac/iOS framework for working with the e-mail protocols IMAP and SMTP.
+* [jamesonrader/data-over-sound](https://github.com/jamesonrader/data-over-sound) - Transmit data using ultrasonic audio. Perfect for offline/network-free data transfer, automatic content recognition (ACR), and broadcast.
 * [kickingvegas/YmsCoreBluetooth](https://github.com/kickingvegas/YmsCoreBluetooth) - A block-based framework for building Bluetooth 4.0 Low Energy (aka Smart or LE) iOS and OS X applications using the CoreBluetooth API. Includes Deanna and DeannaMac, applications to communicate with a TI SensorTag for iOS and OS X respectively.
 * [qiniu/happy-dns-objc](https://github.com/qiniu/happy-dns-objc) - dns library for objective c
 * [chrisballinger/BLEMeshChat](https://github.com/chrisballinger/BLEMeshChat) - Bluetooth LE Mesh Chat for iOS and Android
@@ -358,33 +276,8 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [paradiseduo/tcping](https://github.com/paradiseduo/tcping) - tcping command, written with Objective-C, on macOS,tcping for mac,ping over a tcp connection
 * [kolyvan/kxsmb](https://github.com/kolyvan/kxsmb) - KxSMB is objective-c wrapper for libsmbclient (samba.org) lib.
 * [indragiek/INDANCSClient](https://github.com/indragiek/INDANCSClient) - Objective-C Apple Notification Center Service Client
-* [jamesonrader/data-over-sound](https://github.com/jamesonrader/data-over-sound) - Transmit data using ultrasonic audio. Perfect for offline/network-free data transfer, automatic content recognition (ACR), and broadcast.
-
-### RPC and Messaging
-
-* [novastone-media/MQTT-Client-Framework](https://github.com/novastone-media/MQTT-Client-Framework) - iOS, macOS, tvOS native ObjectiveC MQTT Client Framework
-* [boundsj/ObjectiveDDP](https://github.com/boundsj/ObjectiveDDP) - Making it easy for your Objective-C apps to communicate with your Meteor.js apps since 2013. *(archived)*
-* [DyKnow/SignalR-ObjC](https://github.com/DyKnow/SignalR-ObjC) - Objective-C Client for the SignalR Project works with iOS and Mac
-
-### Cloud and Infrastructure
-
-* [qiniu/objc-sdk](https://github.com/qiniu/objc-sdk) - Qiniu Resource (Cloud) Storage Objective-C SDK for Mac/iOS
-* [TheNewNormal/coreos-osx](https://github.com/TheNewNormal/coreos-osx) - Local development docker/rkt CoreOS VM App for macOS made very simple
-* [agilebits/AgileCloudSDK](https://github.com/agilebits/AgileCloudSDK) - AgileCloudSDK is our CloudKit JS implementation of the CloudKit framework. It is used in 1Password for Mac.
-
-### Monitoring and Observability
-
-* [Countly/countly-sdk-ios](https://github.com/Countly/countly-sdk-ios) - Countly Digital Analytics iOS SDK with macOS, watchOS and tvOS support.
 
 ## User Interface
-
-### GUI Toolkits
-
-* [BigZaphod/Chameleon](https://github.com/BigZaphod/Chameleon) - Chameleon is a port of Apple's UIKit for iOS (and some minimal related frameworks) to Mac OS X.
-* [cjwl/cocotron](https://github.com/cjwl/cocotron) - The Cocotron
-* [rsms/chromium-tabs](https://github.com/rsms/chromium-tabs) - [historical] Chromium tabs for cocoa applications (project no longer maintained)
-* [rsms/cocui](https://github.com/rsms/cocui) - Cocoa meets WebKit for more rapid UI development
-* [gnustep/libs-gui](https://github.com/gnustep/libs-gui) - The GNUstep gui library is a library of graphical user interface classes written completely in the Objective-C language; the classes are based upon Apple's Cocoa framework (which came from the OpenStep specification). *** Larger patches require copyright assignment to FSF. please file bugs here. ***
 
 ### Mobile
 
@@ -469,6 +362,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [puls/objc-TimesSquare](https://github.com/puls/objc-TimesSquare) - TimesSquare is an Objective-C calendar view for your apps.
 * [cwRichardKim/RKDropdownAlert](https://github.com/cwRichardKim/RKDropdownAlert) - iOS / Objective C: an extremely simple UIAlertView alternative
 * [mattgemmell/MGSplitViewController](https://github.com/mattgemmell/MGSplitViewController) - A flexible, advanced split-view controller for iPad developers.
+* [snail-z/DawnTransition](https://github.com/snail-z/DawnTransition) - DawnTransition is a lightweight iOS transition framework for smooth, customizable animations and native-like interactive swipe-back gestures. It solves common gesture conflicts in custom transitions and is proven in real projects.
 * [dzenbot/DZNPhotoPickerController](https://github.com/dzenbot/DZNPhotoPickerController) - A photo search/picker for iOS using popular image providers like 500px, Flickr, Instagram, Giphy, Google & Bing Images *(archived)*
 * [callumboddy/CBZSplashView](https://github.com/callumboddy/CBZSplashView) - Twitter style Splash Screen View. Grows to reveal the Initial view behind
 * [TimOliver/TOWebViewController](https://github.com/TimOliver/TOWebViewController) - A view controller class for iOS that allows users to view web pages directly within an app.
@@ -540,6 +434,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [meiwin/NgKeyboardTracker](https://github.com/meiwin/NgKeyboardTracker) - Objective-C library for tracking keyboard in iOS apps.
 * [devedbox/AXWebViewController](https://github.com/devedbox/AXWebViewController) - AXWebViewController is a webViewController to browse web content inside applications. It’s a lightweight controller on iOS platform based on WKWebView (UIWebView would be the base Kit under iOS 8.0). It added navigation tool bar to refresh, go back, go forward and so on. It support the navigation style on WeChat. It is a simple-using and convenient web view controller using inside applications.
 * [joeferraro/react-native-cookies](https://github.com/joeferraro/react-native-cookies) - Cookie manager for React Native *(archived)*
+* [rafiki270/FTCoreText](https://github.com/rafiki270/FTCoreText) - An open source interface component that makes use of the CoreText framework to render static text content using a highly customisable markup syntax.
 * [ValiantCat/XXShield](https://github.com/ValiantCat/XXShield) - It's a library can avoid some crash in iOS project written by Objective-C.
 * [christianroman/CRMotionView](https://github.com/christianroman/CRMotionView) - A custom photo viewer that implements device motion scrolling, inspired by Facebook Paper.
 * [leejayID/Linkage](https://github.com/leejayID/Linkage) - 【Objective-C 联动】：两个 TableView 之间的联动，TableView 与 CollectionView 之间的联动
@@ -871,13 +766,13 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [carleihar/JRMFloatingAnimation](https://github.com/carleihar/JRMFloatingAnimation) - An Objective-C animation library used to create floating image views.
 * [iTofu/LCNavigationController](https://github.com/iTofu/LCNavigationController) - 除 UINavigationController 外最流行的 NavigationController！
 * [Kjuly/ALAssetsLibrary-CustomPhotoAlbum](https://github.com/Kjuly/ALAssetsLibrary-CustomPhotoAlbum) - A nice ALAssetsLibrary category for saving images & videos into custom photo album. *(archived)*
-* [rafiki270/FTCoreText](https://github.com/rafiki270/FTCoreText) - An open source Objective-C interface component that makes use of the CoreText framework to render static text content using a highly customisable markup syntax.
-* [snail-z/DawnTransition](https://github.com/snail-z/DawnTransition) - Help you pop up custom views easily. and support pop-up animation, layout position, mask effect and gesture interaction etc.
 
 ### Applications and End User Tools
 
 * [MustangYM/WeChatExtension-ForMac](https://github.com/MustangYM/WeChatExtension-ForMac) - A plugin for Mac WeChat *(archived)*
 * [TKkk-iOSer/WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS) - 微信小助手
+* [sunnyyoung/WeChatTweak](https://github.com/sunnyyoung/WeChatTweak) - A command-line tool for tweaking WeChat - 首款微信 macOS 客户端撤回拦截与多开 🔨
+* [LiveContainer/LiveContainer](https://github.com/LiveContainer/LiveContainer) - Run iOS apps without actually installing them!
 * [Tencent/lemon-cleaner](https://github.com/Tencent/lemon-cleaner) - 腾讯柠檬清理是针对macOS系统专属制定的清理工具。主要功能包括重复文件和相似照片的识别、软件的定制化垃圾扫描、可视化的全盘空间分析、内存释放、浏览器隐私清理以及设备实时状态的监控等。重点聚焦清理功能，对上百款软件提供定制化的清理方案，提供专业的清理建议，帮助用户轻松完成一键式清理。
 * [brunophilipe/Cakebrew](https://github.com/brunophilipe/Cakebrew) - Manage your Homebrew formulas with style using Cakebrew.
 * [typcn/bilibili-mac-client](https://github.com/typcn/bilibili-mac-client) - An unofficial bilibili client for mac
@@ -949,15 +844,8 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [netik/UTCMenuClock](https://github.com/netik/UTCMenuClock) - Simple Objective-C based Menu Clock for Mac OS X. Displays the UTC time in the menubar and nothing more.
 * [alberti42/iTunes-Volume-Control](https://github.com/alberti42/iTunes-Volume-Control) - Controlling iTunes and Spotify volume using volume up and volume down hotkeys. *(archived)*
 * [Ink/ThatCloud](https://github.com/Ink/ThatCloud) - ThatCloud is an open-source iOS application that allows you to access, view, and work with all of the content you have online. *(archived)*
-* [LiveContainer/LiveContainer](https://github.com/LiveContainer/LiveContainer) - Run iOS app without actually installing it!
-* [sunnyyoung/WeChatTweak](https://github.com/sunnyyoung/WeChatTweak) - A dynamic library tweak for WeChat macOS - 首款微信 macOS 客户端撤回拦截与多开 🔨
 
 ## Graphics and Media
-
-### Graphics and Rendering
-
-* [zac/iphonearkit](https://github.com/zac/iphonearkit) - An Objective-C augmented reality kit for iPhone.
-* [creaceed/CeedGL](https://github.com/creaceed/CeedGL) - Thin Objective-C wrapper for modern OpenGL development on Mac & iOS
 
 ### Game Development
 
@@ -1039,13 +927,6 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [itruf/crackify](https://github.com/itruf/crackify) - Protection for iOS apps from cracking
 * [macmade/FileVaultCracker](https://github.com/macmade/FileVaultCracker) - macOS FileVault cracking tool
 
-### Authentication and Authorization
-
-* [nxtbgthng/OAuth2Client](https://github.com/nxtbgthng/OAuth2Client) - Client library for OAuth2 (currently built against draft 10 of the OAuth2 spec)
-* [jdg/oauthconsumer](https://github.com/jdg/oauthconsumer) - An iPhone ready, Objective-C implementation of an OAuth consumer.
-* [yourkarma/JWT](https://github.com/yourkarma/JWT) - A JSON Web Token implementation in Objective-C.
-* [lukeredpath/LROAuth2Client](https://github.com/lukeredpath/LROAuth2Client) - OAuth2 client for iPhone and iPad apps
-
 ### Reverse Engineering
 
 * [nst/iOS-Runtime-Headers](https://github.com/nst/iOS-Runtime-Headers) - iOS Objective-C headers as derived from runtime introspection
@@ -1059,15 +940,6 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [typcn/163music-mac-client-unlock](https://github.com/typcn/163music-mac-client-unlock) - Unlock netease music mac client using dylib inject
 * [sunweiliang/NeteaseMusicCrack](https://github.com/sunweiliang/NeteaseMusicCrack) - iOS网易云音乐 免VIP下载、去广告、去更新 无需越狱...
 * [limneos/weak_classdump](https://github.com/limneos/weak_classdump) - Cycript real-time classdump . An alternative for encrypted binaries
-
-## Concurrency and Performance
-
-### Concurrency and Parallelism
-
-* [alibaba/coobjc](https://github.com/alibaba/coobjc) - coobjc provides coroutine support for Objective-C and Swift. We added await method、generator and actor model like C#、Javascript and Kotlin. For convenience, we added coroutine categories for some Foundation and UIKit API in cokit framework like NSFileManager, JSON, NSData, UIImage etc. We also add tuple support in coobjc.
-* [google/promises](https://github.com/google/promises) - Promises is a modern framework that provides a synchronization construct for Swift and Objective-C.
-* [mjmsmith/gcdobjc](https://github.com/mjmsmith/gcdobjc) - Objective-C wrapper for Grand Central Dispatch
-* [tempAccountA/MSSafeContainer](https://github.com/tempAccountA/MSSafeContainer) - ThreadSafeContainer
 
 ## Testing and Quality
 
@@ -1102,12 +974,6 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [kirtan-shah/nowplaying-cli](https://github.com/kirtan-shah/nowplaying-cli) - macOS command-line utility for retrieving currently playing media
 * [mysteriouspants/ArgumentParser](https://github.com/mysteriouspants/ArgumentParser) - Faster, easier, more declarative parsing of command line arguments in Objective-C/Foundation.
 
-### Logging and Configuration
-
-* [CocoaLumberjack/CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) - A fast & simple, yet powerful & flexible logging framework for macOS, iOS, tvOS, watchOS and visionOS
-* [mattt/GroundControl](https://github.com/mattt/GroundControl) - Remote configuration for iOS *(archived)*
-* [MKSG-MugunthKumar/MKiCloudSync](https://github.com/MKSG-MugunthKumar/MKiCloudSync) - Sync your NSUserDefaults to iCloud automatically *(archived)*
-
 ### Text Processing
 
 * [iziz/libPhoneNumber-iOS](https://github.com/iziz/libPhoneNumber-iOS) - iOS port of Google's libphonenumber with Objective-C core, Swift facade, SwiftUI input, and CocoaPods/SPM support
@@ -1118,25 +984,6 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [NimbusKit/sockit](https://github.com/NimbusKit/sockit) - String <-> Object Coder for Objective-C
 * [Bertrand/handlebars-objc](https://github.com/Bertrand/handlebars-objc) - handlebars-objc is a feature-complete implementation of Handlebars.js for Objective-C
 * [NSHipster/DictionaryKit](https://github.com/NSHipster/DictionaryKit) - An Objective-C Wrapper for Private Dictionary Services on Mac OS X *(archived)*
-
-### Files and Operating System
-
-* [pytorch/cpuinfo](https://github.com/pytorch/cpuinfo) - CPU INFOrmation library (x86/x86-64/ARM/ARM64, Linux/Windows/Android/macOS/iOS)
-* [armadsen/ORSSerialPort](https://github.com/armadsen/ORSSerialPort) - Serial port library for Objective-C and Swift macOS apps
-* [PengfeiWang666/iOS-getClientInfo](https://github.com/PengfeiWang666/iOS-getClientInfo) - 📱📲iOS中获取各种设备信息🆔的方法总结(iPhone 11 已更新)
-* [sveinbjornt/STPrivilegedTask](https://github.com/sveinbjornt/STPrivilegedTask) - An NSTask-like wrapper around the macOS Security Framework's AuthorizationExecuteWithPrivileges function to run shell commands with root privileges in Objective-C / Cocoa.
-* [CaramelForSwift/Caramel](https://github.com/CaramelForSwift/Caramel) - A portable I/O framework for Swift *(archived)*
-
-### Date and Time
-
-* [kevinlawler/NSDate-TimeAgo](https://github.com/kevinlawler/NSDate-TimeAgo) - A "time ago", "time since", "relative date", or "fuzzy date" category for NSDate and iOS, Objective-C, Cocoa Touch, iPhone, iPad *(archived)*
-* [yannickl/YLMoment](https://github.com/yannickl/YLMoment) - Parsing, validating, manipulating, and formatting dates easily in Objective-C (API inspired by moment.js)
-* [mattt/CupertinoYankee](https://github.com/mattt/CupertinoYankee) - An NSDate Category With Locale-Aware Calculations for Beginning & End of Day, Week, Month, and Year *(archived)*
-* [erndev/EDSunriseSet](https://github.com/erndev/EDSunriseSet) - Objective-C class to calculate Sunrise/Sunset/Twilight times. *(archived)*
-
-### Automation and Scripting
-
-* [iosre/WeChatRobotForExample](https://github.com/iosre/WeChatRobotForExample) - A Powerful WeChat Robot for Example
 
 ### General Purpose Libraries
 
@@ -1183,14 +1030,6 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [stuartervine/OCTotallyLazy](https://github.com/stuartervine/OCTotallyLazy) - Functional extensions to Objective C's collections
 * [Zepo/Reflow](https://github.com/Zepo/Reflow) - A unidirectional data flow framework for Objective-C inspired by Flux, Redux and Vue.
 
-## Science and Math
-
-### Mathematics
-
-* [soulverteam/SoulverCore](https://github.com/soulverteam/SoulverCore) - A powerful Swift framework for evaluating natural language math expressions
-* [JackZhouCn/JZLocationConverter](https://github.com/JackZhouCn/JZLocationConverter) - GCJ-02(火星坐标)、WGS-84、BD-09坐标系转换
-* [adamwulf/ClippingBezier](https://github.com/adamwulf/ClippingBezier) - ClippingBezier calculates intersection points, paths, and shapes between two UIBezierPaths
-
 ## Other
 
 * [AFNetworking/AFNetworking](https://github.com/AFNetworking/AFNetworking) - A delightful networking framework for iOS, macOS, watchOS, and tvOS. *(archived)*
@@ -1206,6 +1045,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [ibireme/YYKit](https://github.com/ibireme/YYKit) - A collection of iOS components.
 * [CoderMJLee/MJRefresh](https://github.com/CoderMJLee/MJRefresh) - An easy way to use pull-to-refresh.
 * [eczarny/spectacle](https://github.com/eczarny/spectacle) - Spectacle allows you to organize your windows without using a mouse. *(archived)*
+* [CocoaLumberjack/CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) - A fast & simple, yet powerful & flexible logging framework for macOS, iOS, tvOS, watchOS and visionOS
 * [darlinghq/darling](https://github.com/darlinghq/darling) - Darwin/macOS emulation layer for Linux
 * [objective-see/LuLu](https://github.com/objective-see/LuLu) - LuLu is the free open-source macOS firewall
 * [Instagram/IGListKit](https://github.com/Instagram/IGListKit) - A data-driven UICollectionView framework for building fast and flexible lists.
@@ -1271,6 +1111,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [joeldev/JLRoutes](https://github.com/joeldev/JLRoutes) - URL routing library for iOS with a simple block-based API
 * [google/EarlGrey](https://github.com/google/EarlGrey) - :tea: iOS UI Automation Test Framework
 * [iodefog/VipVideo](https://github.com/iodefog/VipVideo) - 这是一个Mac/Windows聚合App，聚合常见电视/视频/音乐/小说。比如CCTV中央电视台直播免费观看, 爱奇艺、腾讯视频、芒果视频、优酷视频付费电影，VIP会员剧等免费观看，bilibili、美剧、韩剧、日剧、网易云音乐、腾讯音乐、酷狗音乐、喜马拉雅、起点、七猫、有声小说等
+* [robbiehanson/CocoaHTTPServer](https://github.com/robbiehanson/CocoaHTTPServer) - A small, lightweight, embeddable HTTP server for Mac OS X or iOS applications
 * [fikovnik/ShiftIt](https://github.com/fikovnik/ShiftIt) - Managing windows size and position in OSX
 * [schneiderandre/popping](https://github.com/schneiderandre/popping) - A collection of animation examples for iOS apps.
 * [Tencent/MLeaksFinder](https://github.com/Tencent/MLeaksFinder) - Find memory leaks in your iOS app at develop time.
@@ -1315,6 +1156,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [nicklockwood/iRate](https://github.com/nicklockwood/iRate) - [DEPRECATED]
 * [crazycodeboy/RNStudyNotes](https://github.com/crazycodeboy/RNStudyNotes) - React Native 研究与实践
 * [pinterest/PINRemoteImage](https://github.com/pinterest/PINRemoteImage) - A thread safe, performant, feature rich image fetcher
+* [alibaba/coobjc](https://github.com/alibaba/coobjc) - coobjc provides coroutine support for Objective-C and Swift. We added await method、generator and actor model like C#、Javascript and Kotlin. For convenience, we added coroutine categories for some Foundation and UIKit API in cokit framework like NSFileManager, JSON, NSData, UIImage etc. We also add tuple support in coobjc.
 * [sfsam/Itsycal](https://github.com/sfsam/Itsycal) - Itsycal is a tiny calendar for your Mac's menu bar. http://www.mowglii.com/itsycal
 * [griddynamics-archive/MMWormhole](https://github.com/griddynamics-archive/MMWormhole) - Message passing between iOS apps and extensions.
 * [syncthing/syncthing-macos](https://github.com/syncthing/syncthing-macos) - Official frugal and native macOS Syncthing application bundle
@@ -1322,6 +1164,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [ninjinkun/NJKWebViewProgress](https://github.com/ninjinkun/NJKWebViewProgress) - UIWebView progress interface
 * [devinross/tapkulibrary](https://github.com/devinross/tapkulibrary) - tap + haiku = tapku, a well crafted open source iOS framework
 * [2ndalpha/gasmask](https://github.com/2ndalpha/gasmask) - Hosts file manager for macOS
+* [google/promises](https://github.com/google/promises) - Promises is a modern framework that provides a synchronization construct for Swift and Objective-C.
 * [nnhubbard/ZSSRichTextEditor](https://github.com/nnhubbard/ZSSRichTextEditor) - A beautiful rich text WYSIWYG editor for iOS with a syntax highlighted source view
 * [ko1o/PYSearch](https://github.com/ko1o/PYSearch) - 🔍 An elegant search controller which replaces the UISearchController for iOS (iPhone & iPad) .
 * [tombenner/nui](https://github.com/tombenner/nui) - Style iOS apps with a stylesheet, similar to CSS
@@ -1340,6 +1183,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [draveness/DKNightVersion](https://github.com/draveness/DKNightVersion) - Manage Colors, Integrate Night/Multiple Themes. (Unmaintained) *(archived)*
 * [rsms/peertalk](https://github.com/rsms/peertalk) - iOS and Mac Cocoa library for communicating over USB
 * [benbaker76/Hackintool](https://github.com/benbaker76/Hackintool) - The Swiss army knife of vanilla Hackintoshing
+* [BigZaphod/Chameleon](https://github.com/BigZaphod/Chameleon) - Chameleon is a port of Apple's UIKit for iOS (and some minimal related frameworks) to Mac OS X.
 * [button/DeepLinkKit](https://github.com/button/DeepLinkKit) - A splendid route-matching, block-based way to handle your deep links.
 * [sveinbjornt/Platypus](https://github.com/sveinbjornt/Platypus) - Create native macOS applications from command line scripts.
 * [peter-iakovlev/Telegram](https://github.com/peter-iakovlev/Telegram) - Telegram Messenger for iOS *(archived)*
@@ -1398,6 +1242,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [PrideChung/FontAwesomeKit](https://github.com/PrideChung/FontAwesomeKit) - Icon font library for iOS. Currently supports Font-Awesome, Foundation icons, Zocial, and ionicons.
 * [tidev/titanium-sdk](https://github.com/tidev/titanium-sdk) - 🚀 Native iOS and Android Apps with JavaScript & TypeScript
 * [johnil/VVeboTableViewDemo](https://github.com/johnil/VVeboTableViewDemo) - VVebo剥离的TableView绘制
+* [core-plot/core-plot](https://github.com/core-plot/core-plot) - Core Plot source code and example applications
 * [SunLiner/MiaowShow](https://github.com/SunLiner/MiaowShow) - iOS视频直播项目
 * [douban/DOUAudioStreamer](https://github.com/douban/DOUAudioStreamer) - A Core Audio based streaming audio player for iOS and macOS
 * [johnvuko/JTCalendar](https://github.com/johnvuko/JTCalendar) - A customizable calendar view for iOS.
@@ -1449,6 +1294,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [danielamitay/DACircularProgress](https://github.com/danielamitay/DACircularProgress) - DACircularProgress is a UIView subclass with circular UIProgressView properties.
 * [shaojiankui/SmartPush](https://github.com/shaojiankui/SmartPush) - SmartPush,一款iOS苹果远程推送测试程序,Mac OS下的APNS工具APP,iOS Push Notification Debug App
 * [gmoledina/GMGridView](https://github.com/gmoledina/GMGridView) - A performant Grid-View for iOS (iPhone/iPad) that allows sorting of views with gestures (the user can move the items with his finger to sort them) and pinching/rotating/panning gestures allow the user to play with the view and toggle from the cellview to a fullsize display.
+* [card-io/card.io-iOS-SDK](https://github.com/card-io/card.io-iOS-SDK) - card.io provides fast, easy credit card scanning in mobile apps *(archived)*
 * [XVimProject/XVim2](https://github.com/XVimProject/XVim2) - Vim key-bindings for Xcode 9
 * [liangdrime/SwipeTableView](https://github.com/liangdrime/SwipeTableView) - Both scroll horizontal and vertical for segment scrollview which have a same header. — 类似半糖、美丽说主页与QQ音乐歌曲列表布局效果，实现不同菜单的左右滑动切换，同时支持类似tableview的顶部工具栏悬停（既可以左右滑动，又可以上下滑动）。兼容下拉刷新，自定义 collectionview实现自适应 contentSize 还可实现瀑布流功能
 * [rsms/kod](https://github.com/rsms/kod) - Programmers' editor for OS X [DEAD PROJECT] *(archived)*
@@ -1510,6 +1356,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [ReactiveCocoa/ReactiveViewModel](https://github.com/ReactiveCocoa/ReactiveViewModel) - Model-View-ViewModel, using ReactiveCocoa *(archived)*
 * [nicklockwood/NullSafe](https://github.com/nicklockwood/NullSafe) - NullSafe is a simple category on NSNull that returns nil for unrecognised messages instead of throwing an exception
 * [nicklockwood/iVersion](https://github.com/nicklockwood/iVersion) - [DEPRECATED]
+* [mattt/GroundControl](https://github.com/mattt/GroundControl) - Remote configuration for iOS *(archived)*
 * [nacker/LZEasemob3](https://github.com/nacker/LZEasemob3) - 酷信 | 高仿微信| WeChat | 高仿朋友圈 | moments| Github上最牛逼的高仿微信项目没有之一
 * [XcodeGhostSource/XcodeGhost](https://github.com/XcodeGhostSource/XcodeGhost) - "XcodeGhost" Source
 * [piemonte/PBJVision](https://github.com/piemonte/PBJVision) - 📸 iOS Media Capture – features touch-to-record video, slow motion, and photography *(archived)*
@@ -1527,6 +1374,8 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [leah/PullToRefresh](https://github.com/leah/PullToRefresh) - A simple iPhone TableViewController for adding pull-to-refresh functionality.
 * [tapwork/HeapInspector-for-iOS](https://github.com/tapwork/HeapInspector-for-iOS) - Find memory issues & leaks in your iOS app without instruments
 * [omz/AppSales-Mobile](https://github.com/omz/AppSales-Mobile) - App Sales allows iPhone and Mac App Store developers to download and analyze their daily and weekly sales reports from iTunes Connect.
+* [novastone-media/MQTT-Client-Framework](https://github.com/novastone-media/MQTT-Client-Framework) - iOS, macOS, tvOS native ObjectiveC MQTT Client Framework
+* [alan-ai/alan-sdk-ios](https://github.com/alan-ai/alan-sdk-ios) - The Self-Coding System for Your App — Alan AI SDK for iOS
 * [liamxujia/linke](https://github.com/liamxujia/linke) - 本项目实现了作为一个直播App的基本功能，比如本地视频流采集、播放、美颜、礼物、点赞出心等。提供一个搭建思路，很久没有更新了，望谅解！🤡 *(archived)*
 * [lanayotech/vagrant-manager](https://github.com/lanayotech/vagrant-manager) - Manage your vagrant machines in one place with Vagrant Manager for OS X
 * [TKkk-iOSer/WeChatPlugin-iOS](https://github.com/TKkk-iOSer/WeChatPlugin-iOS)
@@ -1564,6 +1413,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [terryworona/TWMessageBarManager](https://github.com/terryworona/TWMessageBarManager) - An iOS manager for presenting system-wide notifications via a dropdown message bar.
 * [ming1016/RSSReader](https://github.com/ming1016/RSSReader) - “已阅”新版，RSS阅读器，使用FMDB做存储，ReactiveCocoa处理数据流向
 * [gskbyte/GSKStretchyHeaderView](https://github.com/gskbyte/GSKStretchyHeaderView) - A generic stretchy header for UITableView and UICollectionView
+* [kevinlawler/NSDate-TimeAgo](https://github.com/kevinlawler/NSDate-TimeAgo) - A "time ago", "time since", "relative date", or "fuzzy date" category for NSDate and iOS, Objective-C, Cocoa Touch, iPhone, iPad *(archived)*
 * [didi/DiDiPrism](https://github.com/didi/DiDiPrism) - 小桔棱镜，一款专注移动端操作行为的利器！ A powerful tool (iOS & Android) that focuses on mobile operation behavior!
 * [react-native-ar/react-native-arkit](https://github.com/react-native-ar/react-native-arkit) - React Native binding for iOS ARKit
 * [alexdrone/ios-fontawesome](https://github.com/alexdrone/ios-fontawesome) - NSString+FontAwesome
@@ -1764,6 +1614,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [xhacker/TEAChart](https://github.com/xhacker/TEAChart) - Simple and intuitive iOS chart library. Contribution graph, clock chart, and bar chart.
 * [MacEnhance/MacForge](https://github.com/MacEnhance/MacForge) - 📦 Plugin, App, and Theme store which includes plugin injection for macOS
 * [MacGapProject/MacGap2](https://github.com/MacGapProject/MacGap2) - MacGap 2
+* [pytorch/cpuinfo](https://github.com/pytorch/cpuinfo) - CPU INFOrmation library (x86/x86-64/ARM/ARM64, Linux/Windows/Android/macOS/iOS)
 * [benoitsan/BBUncrustifyPlugin-Xcode](https://github.com/benoitsan/BBUncrustifyPlugin-Xcode) - Xcode plugin to format source code using ClangFormat or Uncrustify
 * [brentsimmons/DB5](https://github.com/brentsimmons/DB5) - *(archived)*
 * [WillkYang/YYStock](https://github.com/WillkYang/YYStock) - iOS YYStock-v2.0：timeline chart, long press, pinch, full-screen，K线图...
@@ -1773,6 +1624,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [kean/DFImageManager](https://github.com/kean/DFImageManager) - Image loading, processing, caching and preheating *(archived)*
 * [ZhongTaoTian/LoveFreshBeen](https://github.com/ZhongTaoTian/LoveFreshBeen) - 爱鲜蜂By Swift2.0
 * [fphilipe/PHFComposeBarView](https://github.com/fphilipe/PHFComposeBarView) - Compose bar from iOS 7 Messages.app *(archived)*
+* [libgit2/objective-git](https://github.com/libgit2/objective-git) - Objective-C bindings to libgit2
 * [insidegui/AnimojiStudio](https://github.com/insidegui/AnimojiStudio) - Make cute emoji videos with unlimited duration and share anywhere (iPhone X, XS and XS Max only!) *(archived)*
 * [Okelm/react-native-audio](https://github.com/Okelm/react-native-audio) - Audio recorder library for React Native
 * [agencyenterprise/react-native-health](https://github.com/agencyenterprise/react-native-health) - A React Native package to interact with Apple HealthKit
@@ -1797,6 +1649,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [x74353/Amphetamine-Enhancer](https://github.com/x74353/Amphetamine-Enhancer) - Add new abilities to the macOS keep-awake utility, Amphetamine.
 * [BigShow1949/BigShow1949](https://github.com/BigShow1949/BigShow1949) - iOS教学/各类知识点总结:运行时/贝塞尔曲线/水纹/粒子发射器/核心动画/渐变色/网络请求/按钮/标签/视图布局/视图效果/文字视图/表情键盘/旋转动画/2048/网易/微信/猿题库/阿里巴巴/设计模式/数据持久化/多次点击按钮/微信注册按钮/展开按钮/跑马灯/闪烁文字/球形滚动标签/自动布局标签/快播动态标签/水平滚动布局/瀑布流布局/浏览卡/半圆布局/滑动标题/抽卡效果/百度视图切换/领英动画/折卡效果/卡牌拖动翻页/滚动悬浮视图/侧滑形变效果/评分条/打印机特效/Masonry/生命周期/响应者链条/引导页/通知中心/抖动密码框/余额宝数字跳动/UIDynamic/碰撞行为/捕捉行为/推动行为/附着行为/动力元素行为/GCD/KVC&KVO/多继承/消息转发/二维码/MVC/MVP/MVVM/Router/Viper
 * [apparition47/MailTrackerBlocker](https://github.com/apparition47/MailTrackerBlocker) - Email tracker, read receipt and spy pixel blocker plugin for macOS Mail (10.11-13.x)
+* [square/spacecommander](https://github.com/square/spacecommander) - Commit fully-formatted Objective-C as a team without even trying.
 * [adad184/MMTweenAnimation](https://github.com/adad184/MMTweenAnimation) - A extension of POP(from facebook) custom animation. Inspired by tweaner(https://code.google.com/p/tweaner), MMTweanerAnimation provide 10 types of custom animation while using POP. *(archived)*
 * [LiteAVSDK/Player_iOS](https://github.com/LiteAVSDK/Player_iOS) - Super player for iOS...
 * [ChenYilong/iOSBlog](https://github.com/ChenYilong/iOSBlog) - 微博@iOS程序犭袁 的blog
@@ -1825,6 +1678,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [MartinRGB/Replace-iOS](https://github.com/MartinRGB/Replace-iOS) - Simply Implement Zee Young's animation
 * [mattt/AnimatedGIFImageSerialization](https://github.com/mattt/AnimatedGIFImageSerialization) - Complete Animated GIF Support for iOS, with Functions, NSJSONSerialization-style Class, and (Optional) UIImage Swizzling *(archived)*
 * [LoSenTrad/LSTPopView](https://github.com/LoSenTrad/LSTPopView) - LSTPopView iOS万能弹窗 (QQ群:1045568246 微信:a_LSTKit)
+* [mixpanel/mixpanel-iphone](https://github.com/mixpanel/mixpanel-iphone) - Official iOS (Objective-C) Tracking Library for Mixpanel Analytics
 * [Julioacarrettoni/UIImageView_FaceAwareFill](https://github.com/Julioacarrettoni/UIImageView_FaceAwareFill) - This category applies Aspect Fill content mode to an image and if faces are detected it centers them instead of centering the image just by its geometrical center.
 * [Friend-LGA/LGAlertView](https://github.com/Friend-LGA/LGAlertView) - Customizable implementation of UIAlertViewController, UIAlertView and UIActionSheet. All in one. You can customize every detail. Make AlertView of your dream! :)
 * [indragiek/INAppStoreWindow](https://github.com/indragiek/INAppStoreWindow) - NSWindow subclass with a highly customizable title bar and traffic lights
@@ -1836,6 +1690,7 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [steipete/AFDownloadRequestOperation](https://github.com/steipete/AFDownloadRequestOperation) - A progressive download operation for AFNetworking. *(archived)*
 * [vpdn/MMAppSwitcher](https://github.com/vpdn/MMAppSwitcher) - Replace iOS7 app switcher view with your own customized card view.
 * [niltsh/MPlayerX](https://github.com/niltsh/MPlayerX) - media player on Mac OS X
+* [soulverteam/SoulverCore](https://github.com/soulverteam/SoulverCore) - A powerful Swift framework for evaluating natural language math expressions
 * [fangshufeng/MachOView](https://github.com/fangshufeng/MachOView) - 分析Macho必备工具
 * [kolinkrewinkel/Polychromatic](https://github.com/kolinkrewinkel/Polychromatic) - Semantic highlighting for Xcode.
 * [tapharmonic/Learning-AV-Foundation](https://github.com/tapharmonic/Learning-AV-Foundation) - Sample code for Bob McCune's Learning AV Foundation book.
@@ -1925,3 +1780,47 @@ A curated list of awesome Objective-C frameworks, libraries and software.
 * [nikolaypavlov/MLPNeuralNet](https://github.com/nikolaypavlov/MLPNeuralNet) - Fast multilayer perceptron neural network library for iOS and Mac OS X
 * [Tangdixi/DCPathButton](https://github.com/Tangdixi/DCPathButton) - A menu button like Path for iOS
 * [nicklockwood/iConsole](https://github.com/nicklockwood/iConsole) - [DEPRECATED]
+* [nxtbgthng/OAuth2Client](https://github.com/nxtbgthng/OAuth2Client) - Client library for OAuth2 (currently built against draft 10 of the OAuth2 spec)
+* [zac/iphonearkit](https://github.com/zac/iphonearkit) - An Objective-C augmented reality kit for iPhone.
+* [armadsen/ORSSerialPort](https://github.com/armadsen/ORSSerialPort) - Serial port library for Objective-C and Swift macOS apps
+* [PengfeiWang666/iOS-getClientInfo](https://github.com/PengfeiWang666/iOS-getClientInfo) - 📱📲iOS中获取各种设备信息🆔的方法总结(iPhone 11 已更新)
+* [JackZhouCn/JZLocationConverter](https://github.com/JackZhouCn/JZLocationConverter) - GCJ-02(火星坐标)、WGS-84、BD-09坐标系转换
+* [yannickl/YLMoment](https://github.com/yannickl/YLMoment) - Parsing, validating, manipulating, and formatting dates easily in Objective-C (API inspired by moment.js)
+* [card-io/card.io-iOS-source](https://github.com/card-io/card.io-iOS-source) - The open-source code for the card.io-iOS-SDK: provides fast, easy credit card scanning in mobile apps *(archived)*
+* [Countly/countly-sdk-ios](https://github.com/Countly/countly-sdk-ios) - Countly Digital Analytics iOS SDK with macOS, watchOS and tvOS support.
+* [MKSG-MugunthKumar/MKiCloudSync](https://github.com/MKSG-MugunthKumar/MKiCloudSync) - Sync your NSUserDefaults to iCloud automatically *(archived)*
+* [puls/objc-codegenutils](https://github.com/puls/objc-codegenutils) - Three small tools to help you meet Xcode halfway.
+* [stevestreza/Barista](https://github.com/stevestreza/Barista) - A modular, embeddable web server for Objective-C.
+* [joy0304/Joy-Collection](https://github.com/joy0304/Joy-Collection) - 移动开发专题合辑
+* [thetron/StringScore](https://github.com/thetron/StringScore) - StringScore is an Objective-C library which provides super fast fuzzy string matching/scoring. Based on the JavaScript library of the same name.
+* [boundsj/ObjectiveDDP](https://github.com/boundsj/ObjectiveDDP) - Making it easy for your Objective-C apps to communicate with your Meteor.js apps since 2013. *(archived)*
+* [jdg/oauthconsumer](https://github.com/jdg/oauthconsumer) - An iPhone ready, Objective-C implementation of an OAuth consumer.
+* [DyKnow/SignalR-ObjC](https://github.com/DyKnow/SignalR-ObjC) - Objective-C Client for the SignalR Project works with iOS and Mac
+* [qiniu/objc-sdk](https://github.com/qiniu/objc-sdk) - Qiniu Resource (Cloud) Storage Objective-C SDK for Mac/iOS
+* [riusksk/SecConArchive](https://github.com/riusksk/SecConArchive) - Security Conference Archive
+* [cjwl/cocotron](https://github.com/cjwl/cocotron) - The Cocotron
+* [sveinbjornt/STPrivilegedTask](https://github.com/sveinbjornt/STPrivilegedTask) - An NSTask-like wrapper around the macOS Security Framework's AuthorizationExecuteWithPrivileges function to run shell commands with root privileges in Objective-C / Cocoa.
+* [TheNewNormal/coreos-osx](https://github.com/TheNewNormal/coreos-osx) - Local development docker/rkt CoreOS VM App for macOS made very simple
+* [rsms/chromium-tabs](https://github.com/rsms/chromium-tabs) - [historical] Chromium tabs for cocoa applications (project no longer maintained)
+* [yourkarma/JWT](https://github.com/yourkarma/JWT) - A JSON Web Token implementation in Objective-C.
+* [mjmsmith/gcdobjc](https://github.com/mjmsmith/gcdobjc) - Objective-C wrapper for Grand Central Dispatch
+* [iosre/WeChatRobotForExample](https://github.com/iosre/WeChatRobotForExample) - A Powerful WeChat Robot for Example
+* [tempAccountA/MSSafeContainer](https://github.com/tempAccountA/MSSafeContainer) - ThreadSafeContainer
+* [jiaxiaogang/HE](https://github.com/jiaxiaogang/HE) - 螺旋抗熵系统
+* [rsms/cocui](https://github.com/rsms/cocui) - Cocoa meets WebKit for more rapid UI development
+* [gnustep/libs-gui](https://github.com/gnustep/libs-gui) - The GNUstep gui library is a library of graphical user interface classes written completely in the Objective-C language; the classes are based upon Apple's Cocoa framework (which came from the OpenStep specification). *** Larger patches require copyright assignment to FSF. please file bugs here. ***
+* [lukeredpath/LROAuth2Client](https://github.com/lukeredpath/LROAuth2Client) - OAuth2 client for iPhone and iPad apps
+* [mattt/CupertinoYankee](https://github.com/mattt/CupertinoYankee) - An NSDate Category With Locale-Aware Calculations for Beginning & End of Day, Week, Month, and Year *(archived)*
+* [peakji/PJTernarySearchTree](https://github.com/peakji/PJTernarySearchTree) - Objective-C implementation of Ternary Search Tree for Mac OS X and iOS. Best for text autocompletion. Store any objects, auto pruning, serializing, unicode support. *(archived)*
+* [thecatalinstan/Criollo](https://github.com/thecatalinstan/Criollo) - A powerful Cocoa web framework and HTTP server for macOS, iOS and tvOS.
+* [robin/cocoa-web-resource](https://github.com/robin/cocoa-web-resource) - [Deprecated] A file transfer solution for iPhone and iPod Touch. Support uploading, download and delete files via browser.
+* [floatinghotpot/cordova-httpd](https://github.com/floatinghotpot/cordova-httpd) - Embed tiny web server into Cordova with a plugin
+* [CaramelForSwift/Caramel](https://github.com/CaramelForSwift/Caramel) - A portable I/O framework for Swift *(archived)*
+* [adamwulf/ClippingBezier](https://github.com/adamwulf/ClippingBezier) - ClippingBezier calculates intersection points, paths, and shapes between two UIBezierPaths
+* [scott0123/Tesseract-macOS](https://github.com/scott0123/Tesseract-macOS) - Objective C wrapper for the open source OCR Engine Tesseract (macOS)
+* [erndev/EDSunriseSet](https://github.com/erndev/EDSunriseSet) - Objective-C class to calculate Sunrise/Sunset/Twilight times. *(archived)*
+* [creaceed/CeedGL](https://github.com/creaceed/CeedGL) - Thin Objective-C wrapper for modern OpenGL development on Mac & iOS
+* [dialogflow/dialogflow-apple-client](https://github.com/dialogflow/dialogflow-apple-client) - iOS SDK for Dialogflow *(archived)*
+* [mattstevens/objc-diff](https://github.com/mattstevens/objc-diff) - An Objective-C API diff report generator
+* [agilebits/AgileCloudSDK](https://github.com/agilebits/AgileCloudSDK) - AgileCloudSDK is our CloudKit JS implementation of the CloudKit framework. It is used in 1Password for Mac.
+* [pablosproject/iPhone-OCR-Tesseract-and-OpenCV](https://github.com/pablosproject/iPhone-OCR-Tesseract-and-OpenCV) - Simple academic project made using OpenCV and Tesseract. The aim of these project is to read flyers of job offer and extract the text.
